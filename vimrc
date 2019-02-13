@@ -86,7 +86,7 @@ NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
-NeoBundle 'emmet-vim'
+NeoBundle 'mattn/emmet-vim'
 let g:user_emmet_leader_key = '<C-E>'
 
 " You can specify revision/branch/tag.
