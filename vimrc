@@ -73,6 +73,7 @@ inoremap <C-l> <right>
 "Auto Completion
 inoremap { {}<Left>
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
+inoremap [ []<Left>
 inoremap( ()<ESC>i
 inoremap' ''<LEFT>
 inoremap" ""<LEFT>
