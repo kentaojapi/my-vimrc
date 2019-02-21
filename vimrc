@@ -77,6 +77,7 @@ inoremap [ []<Left>
 inoremap( ()<ESC>i
 inoremap' ''<LEFT>
 inoremap" ""<LEFT>
+inoremap<% <%  %><LEFT><LEFT><LEFT>
 
 "NeoBundle Scripts-----------------------------
 if &compatible
