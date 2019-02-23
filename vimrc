@@ -85,10 +85,10 @@ if &compatible
 endif
 
 " Required:
-set runtimepath^=/home/vagrant/.vim/bundle/neobundle.vim/
+set runtimepath^=~/.vim/bundle/neobundle.vim/
 
 " Required:
-call neobundle#begin(expand('/home/vagrant/.vim/bundle'))
+call neobundle#begin(expand('~/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
@@ -102,6 +102,7 @@ NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'mattn/emmet-vim'
 let g:user_emmet_leader_key = '<C-E>'
+NeoBundle 'tell-k/vim-browsereload-mac'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
