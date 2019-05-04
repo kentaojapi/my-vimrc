@@ -6,4 +6,4 @@ apt-get update
 apt-get install git
 apt-get install vim
 git clone https://github.com/kentaojapi/my-vimrc.git ~/my-vimrc
-sudo cp ~/my-vimrc/vimrc ~/.vimrc
+sudo cp ./my-vimrc/vimrc ~/.vimrc
