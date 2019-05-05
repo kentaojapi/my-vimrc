@@ -25,6 +25,9 @@ set autoindent
 "Incremantal Search
 set incsearch
 
+"Turn off paste mode when leaving insert"
+autocmd InsertLeave * set nopaste
+
 "閉じ括弧が入力されたとき、対応する括弧を表示する
 "if a closing parenthesis, show the paired parenthesis. 
 set showmatch
