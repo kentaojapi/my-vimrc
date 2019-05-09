@@ -19,6 +19,11 @@ set number
 "off vi interchageable
 set nocompatible
 
+"japanese corresponding
+set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos,mac
+
 "autoindent on
 set autoindent
 
@@ -28,11 +33,9 @@ set incsearch
 "Turn off paste mode when leaving insert"
 autocmd InsertLeave * set nopaste
 
-"閉じ括弧が入力されたとき、対応する括弧を表示する
 "if a closing parenthesis, show the paired parenthesis. 
 set showmatch
 
-"新しい行を作ったときに高度な自動インデントを行う
 "smartindent on
 set smartindent
 
